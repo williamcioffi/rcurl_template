@@ -15,7 +15,7 @@ x <- getURL(
 # these options are to make ftp work with box
 	ftp.use.epsv = FALSE, 		# --disable-epsv
 	ftp.skip.pasv.ip = TRUE, 	# --ftp-skip-pasv-ip
-	ftp.ssl = TRUE				# --ftp-ssl
+	ftp.ssl = TRUE			# --ftp-ssl
 )
 
 testcsv <- read.table(text = x, header = TRUE, sep = ',')
