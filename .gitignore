@@ -1,0 +1,16 @@
+# secret url, user, password
+url_user_pwd
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# RStudio files
+.Rproj.user/
+
+# MacOS files
+.DS_Store
+
